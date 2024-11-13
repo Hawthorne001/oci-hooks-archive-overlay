@@ -1,5 +1,5 @@
 # ref: https://github.com/containers/podman/blob/main/contrib/podmanimage/stable/Containerfile
-FROM python:3.11.4-alpine3.18
+FROM python:3.13.0b1-alpine3.18
 RUN apk update && apk add --no-cache \
         fuse \
         fuse-overlayfs \
